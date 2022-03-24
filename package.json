@@ -1,0 +1,13 @@
+{
+    "dependencies": {
+        "@dfinity/agent": "^0.10.2",
+        "@dfinity/candid": "^0.10.2",
+        "@dfinity/principal": "^0.10.2",
+        "dotenv": "^10.0.0",
+        "find-process": "^1.4.5",
+        "node-fetch": "^2.6.6",
+        "shelljs": "^0.8.4",
+        "util": "^0.12.4",
+        "uuid": "^8.3.2"
+    }
+}

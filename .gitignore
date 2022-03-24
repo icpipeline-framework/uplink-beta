@@ -1,0 +1,11 @@
+node_modules
+*.log
+worker.icpm.environment
+worker.icpm.registration
+workerObjectLocal.json
+deploymentObjectLocal.json
+webpackPid
+pid
+.env
+config*
+testing*
