@@ -1022,7 +1022,7 @@ let uplink = async () => {
               let dfxReplicaTypeParam = "--emulator";
 
               if (uplinkResponse.workerObject.dfxReplicaType == "replica") {
-                dfxReplicaTypeParam = "";
+                dfxReplicaTypeParam = " ";
 
               }
 
