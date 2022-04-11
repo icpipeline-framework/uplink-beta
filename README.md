@@ -21,6 +21,7 @@ This describes the basic flow of *Uplink* in action on a given Worker:
   - Now the Worker is assigned to its Environment, ready to do work, and there's a *Deploy Now* button -- for deploying whatever *Project* is being managed in that Environment.  You can refer to the ICPM README for more detail.
 
 
+
 **General FYI and Administrative Notes**
 It should be noted in general that all Worker<>ICPM communications originate on the Worker side, as requests to ICPM.  There are no exceptions, and this is based on the fundamentals.  Internet Computer canisters, as you may know, issue requests only to other canisters.  That, in a nutshell, is why ICPipeline works this way.
 
